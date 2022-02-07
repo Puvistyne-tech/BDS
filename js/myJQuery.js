@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $("#myButtons").click(function () {
+    $("button").click(function () {
         let input = $(this).text()
         createMeElement(input)
     });
