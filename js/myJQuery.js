@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    /*":button" to select all the input with type="button"*/
     $("button").click(function () {
         let input = $(this).text()
         createMeElement(input)
